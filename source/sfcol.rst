@@ -1,4 +1,4 @@
-SysFlow Collector Documentation
+SysFlow Collector (sf-collector repo)
 ========================================
 
 The SysFlow Collector monitors and collects system call and event information from hosts
@@ -16,7 +16,5 @@ filtering capabilities.  Please see the build and installation instructions for 
    :maxdepth: 2
     
    build
-   api
    spec
-   python-api
    license

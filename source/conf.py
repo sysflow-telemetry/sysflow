@@ -12,8 +12,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../sf-collector/src/avro/py3/classes/sysflow/'))
-sys.path.insert(0, os.path.abspath('../../sf-collector/src/avro/py3/classes/'))
+sys.path.insert(0, os.path.abspath('../../sf-apis/py3/classes/sysflow/'))
+sys.path.insert(0, os.path.abspath('../../sf-apis/py3/classes/'))
 print(sys.path)
 
 # -- Project information -----------------------------------------------------

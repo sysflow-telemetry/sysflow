@@ -1,1 +1,1 @@
-.. mdinclude:: ../../sf-collector/API.md
+.. mdinclude:: ../../sf-apis/README.md
