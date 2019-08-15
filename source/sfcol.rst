@@ -17,4 +17,3 @@ filtering capabilities.  Please see the build and installation instructions for 
     
    build
    spec
-   license

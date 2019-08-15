@@ -25,6 +25,7 @@ Lastly, there are C++ and python apis available in the sf-apis project that allo
 
 To learn more about each project, please see the table of contents below, or visit the README's in each project's git repo.
 
+NOTE:  SysFlow and all projects are released under the Apache v2.0 license.
 
 .. toctree::
    :maxdepth: 2
@@ -37,6 +38,7 @@ To learn more about each project, please see the table of contents below, or vis
    deploy
    findings
    cards
+   license
   
 Indices and tables
 ==================
