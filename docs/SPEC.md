@@ -5,8 +5,6 @@ SysFlow is an open specification for system event-level telemetry.  The main goa
 
 The primary objective of SysFlow is to lift raw system call data into more semantic process behaviors which promote significant data reductions for longer term forensic storage of data which is crucial for security analyzes.  Through an object relational model of entities, events and flows, we enable SysFlow users to configure the desired granularity of data collection and filtering in order to facilitate most types of analysis in big data frameworks.          
 
-
-
 *  [SysFlow Overview](#overview)
 * [Entities](#entities)
     * [Header](#header)
