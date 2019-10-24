@@ -1,1 +1,3 @@
+avro-gen==0.3.0
+avro-python3==1.9.1
 m2r==0.2.1
