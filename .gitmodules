@@ -1,0 +1,12 @@
+[submodule "modules/sf-exporter"]
+	path = modules/sf-exporter
+	url = git@github.com:sysflow-telemetry/sf-exporter.git
+[submodule "modules/sf-apis"]
+	path = modules/sf-apis
+	url = git@github.com:sysflow-telemetry/sf-apis.git
+[submodule "modules/sf-collector"]
+	path = modules/sf-collector
+	url = git@github.com:sysflow-telemetry/sf-collector.git
+[submodule "modules/sf-deployments"]
+	path = modules/sf-deployments
+	url = git@github.com:sysflow-telemetry/sf-deployments.git

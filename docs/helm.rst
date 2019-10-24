@@ -6,4 +6,4 @@
    :maxdepth: 2
    :caption: Contents:
 
-.. mdinclude:: ../../sf-deployments/helm/README.md
+.. mdinclude:: ../modules/sf-deployments/helm/README.md

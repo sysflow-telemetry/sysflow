@@ -1,8 +1,3 @@
-.. SysFlow Telemetry Pipeline documentation master file, created by
-   sphinx-quickstart on Wed Aug  7 16:34:09 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to SysFlow Telemetry Pipeline's documentation!
 ======================================================
 
@@ -31,13 +26,10 @@ NOTE:  SysFlow and all projects are released under the Apache v2.0 license.
    :maxdepth: 2
    :caption: Contents:
   
-   sfcol
+   collector
    exporter
    api-utils
-   sfanalytics
    deploy
-   findings
-   cards
    license
   
 Indices and tables

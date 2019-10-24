@@ -12,19 +12,18 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../sf-apis/py3/classes/sysflow/'))
-sys.path.insert(0, os.path.abspath('../../sf-apis/py3/classes/'))
+sys.path.insert(0, os.path.abspath('../modules/sf-apis/py3/classes/sysflow/'))
+sys.path.insert(0, os.path.abspath('../modules/sf-apis/py3/classes/'))
 print(sys.path)
 
 # -- Project information -----------------------------------------------------
 
 project = 'SysFlow Telemetry Pipeline'
-copyright = '2019, Teryl Taylor and Frederico Araujo'
-author = 'Teryl Taylor and Frederico Araujo'
+copyright = '2019, Fred Araujo and Teryl Taylor'
+author = 'Fred Araujo and Teryl Taylor'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
-
 
 # -- General configuration ---------------------------------------------------
 
