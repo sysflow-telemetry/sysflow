@@ -1,1 +1,1 @@
-.. mdinclude:: md/SPEC.md
+.. mdinclude:: ../SPEC.md
