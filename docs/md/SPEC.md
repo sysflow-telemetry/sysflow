@@ -32,7 +32,7 @@ Entity behaviors are modeled as events or flows.  Events represent important ind
 
 The idea behind SysFlow is to enable the user to configure the granularity of system-level data desired based on resource limitations and data analytics requirements.   In this way, behaviors can be broken out into individual events or combined into smaller aggregated volumetric flows.  The current version of the specification describes events and flows in three key behavioral areas:  Files, Networks, and Processes.   Figure 1 shows these events and flows with their attributes and relationships to entities, which are described in greater details in the following sections.
 
-![SF_Object_View.png](/_static/SF_Object_View.png)
+![SF_Object_View.png](/docs/_static/SF_Object_View.png)
 *Figure 1:  SysFlow Object Relational View*
 
 <a name="entities"></a>
