@@ -22,7 +22,8 @@ copyright = '2019, Fred Araujo and Teryl Taylor'
 author = 'Fred Araujo and Teryl Taylor'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = u'0.1'
+version = u'0.1'
 
 # -- General configuration ---------------------------------------------------
 
