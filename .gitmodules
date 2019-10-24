@@ -1,12 +1,12 @@
 [submodule "modules/sf-exporter"]
 	path = modules/sf-exporter
-	url = https://github.com:sysflow-telemetry/sf-exporter.git
+	url = https://github.com/sysflow-telemetry/sf-exporter.git
 [submodule "modules/sf-apis"]
 	path = modules/sf-apis
-	url = https://github.com:sysflow-telemetry/sf-apis.git
+	url = https://github.com/sysflow-telemetry/sf-apis.git
 [submodule "modules/sf-collector"]
 	path = modules/sf-collector
-	url = https://github.com:sysflow-telemetry/sf-collector.git
+	url = https://github.com/sysflow-telemetry/sf-collector.git
 [submodule "modules/sf-deployments"]
 	path = modules/sf-deployments
-	url = https://github.com:sysflow-telemetry/sf-deployments.git
+	url = https://github.com/sysflow-telemetry/sf-deployments.git
