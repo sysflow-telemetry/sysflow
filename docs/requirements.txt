@@ -1,3 +1,5 @@
 avro-gen==0.3.0
 avro-python3==1.9.1
+tabulate==0.8.3
+minio==4.0.18
 m2r==0.2.1
