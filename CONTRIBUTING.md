@@ -71,19 +71,3 @@ git commit -s
 Please feel free to connect with us on our [Slack channel](https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ) or
 via [email](mailto:sysflow@us.ibm.com). Note that the projects in this repository are not formal products. As a result, the communication channels are to the maintainers and not to a support staff.
 
-## Setup
-
-The documentation is a work in progress but should provide a good overview on how to get started with the project.  The Dockerfile also provides a treasure trove of information
-on how to build the application, dependencies, and how to test the collector. 
-
-## Testing
-
-This project is in its infancy and with limited resources we haven't built a large testing framework around the collector.    We do have a set of unit tests that test the coverage of most of the events of interest in `sf-collector/tests`.   
-These tests can be run using the [bats testing framework](https://github.com/bats-core/bats-core).   Directions on how to install bats are in the accompanied link.    To run the tests, run `bats -t tests.bat` from the tests directory.  Note,
-that the tests also rely on python3. Before conducting a pull request, these unit tests should be run.  Note, there is a version of the docker image with a `testing` tag that contains bats and the unit tests.   This might be useful for testing.
-Also, conducting a load test and running the application under valgrind is desirable for pull requests. 
-
-
-## Coding style guidelines
-We follow the [LLVM Coding standards](https://llvm.org/docs/CodingStandards.html) in this project.   There is a .clang-format file in the master repo [clang-format](https://github.com/sysflow-telemetry/sf-collector/blob/master/src/.clang-format) that can be used in conjunction with [ClangFormat Tool](https://clang.llvm.org/docs/ClangFormat.html) to automatically format code. For linting,
-we use [Clang Tidy Linter](https://clang.llvm.org/extra/clang-tidy/).  This is referenced in the Makefile.
