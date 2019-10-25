@@ -1,5 +1,5 @@
 <a name="sysflow"></a>
-# SysFlow 0.1 Specification
+# SysFlow Specification
 
 SysFlow is an open specification for system event-level telemetry.  The main goal of SysFlow is to create a standard and extensible data format for both security and performance analytics for compute workloads.  An open standard will enable researchers and practitioners to more easily work on a common data format, and focus on analytics using open source software.   
 
