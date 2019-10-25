@@ -1,12 +1,13 @@
-# Documentation for the entire SysFlow Pipeline
+# SysFlow Documentation
+[![Documentation Status](https://readthedocs.org/projects/sysflow/badge/?version=latest)](https://sysflow.readthedocs.io/en/latest/?badge=latest)
 
-This documentation depends on Sphinx (http://www.sphinx-doc.org/en/master/) which must be installed to do builds.  The project also requires the
-following Sphinx plugins:
+## Manual build
+This documentation depends on Sphinx (http://www.sphinx-doc.org/en/master/), which must be installed to do builds. The project also requires the following Sphinx plugins:
 
-http://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
-
-https://pypi.org/project/m2r/
+* http://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
+* https://pypi.org/project/m2r/
 
 To build the site as HTML go to the base directory and type:
-
+```
 make html
+```
