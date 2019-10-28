@@ -23,7 +23,9 @@ To learn more about each project, please see the table of contents below, or vis
    api-utils
    deploy
    license
-  
+   contributing
+   coc 
+
 Indices and tables
 ==================
 
