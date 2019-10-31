@@ -1,16 +1,16 @@
-Welcome to SysFlow telemetry pipeline's documentation!
+SysFlow Telemetry Pipeline Documentation
 ======================================================
 
 Introduction
 ------------
 
-The SysFlow Telemetry Pipeline is a fully integrated framework for monitoring cloud workloads and for creating performance and security analytics. The goal of the work is to build all the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable common open source platform. The backbone of the telemetry pipeline is a new data format called SysFlow which lifts raw system event information into an abstraction that describes process behaviors, and their relationships with containers, files, and network. This object relational format is highly compact but provides broad visibility into container clouds. We have also built several APIs that allow users to process SysFlow with their favorite toolkits.
+The SysFlow Telemetry Pipeline is a framework for monitoring cloud workloads and for creating performance and security analytics. The goal of this project is to build all the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable, common open-source platform. The backbone of the telemetry pipeline is a new data format called SysFlow, which lifts raw system event information into an abstraction that describes process behaviors, and their relationships with containers, files, and network. This object-relational format is highly compact, yet it provides broad visibility into container clouds. We have also built several APIs that allow users to process SysFlow with their favorite toolkits.
 
-The pipeline can currently be deployed using Docker or Kubernetes through helm charts (see sf-deployments project). We hope to add other deployment options, such as OpenShift in the future.
+The pipeline can currently be deployed using docker or kubernetes through helm charts (see sf-deployments project). We plan to support other deployment options, such as OpenShift in the future. Contributions are welcome!
 
-Lastly, there are C++ and Python APIs available in the sf-apis project that allow users to interact with SysFlow trace files directly. There are also Apache Avro schema files for SysFlow so that users can generate APIs for other languages, such as golang or JAVA.
+Lastly, C++ and Python APIs are available in the sf-apis project, allowing users to interact with SysFlow traces programmatically. There are also Apache Avro schema files for SysFlow so that users can generate APIs for other languages, such as golang or JAVA.
 
-To learn more about each project, please see the table of contents below, or visit the READMEs in each project's git repo.
+To learn more about each project, please check the table of contents below, or visit the READMEs in each project's git repo.
 
 License
 -------
