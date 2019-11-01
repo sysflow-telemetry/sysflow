@@ -12,6 +12,8 @@ Lastly, C++ and Python APIs are available in the sf-apis project, allowing users
 
 To learn more about each project, please check the table of contents below, or visit the READMEs in each project's git repo.
 
+*This an ongoing research project. We welcome feedback, bug reports, and contributions!*
+
 License
 -------
 SysFlow and all projects are released under the Apache v2.0 license.
