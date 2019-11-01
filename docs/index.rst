@@ -21,7 +21,8 @@ SysFlow and all projects are released under the Apache v2.0 license.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-  
+   
+   quick
    collector
    exporter
    api-utils
