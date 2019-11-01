@@ -11,7 +11,6 @@ The pipeline can currently be deployed using docker or kubernetes through helm c
 Lastly, C++ and Python APIs are available in the sf-apis project, allowing users to interact with SysFlow traces programmatically. There are also Apache Avro schema files for SysFlow so that users can generate APIs for other languages, such as golang or JAVA.
 
 To learn more about each project, please check the table of contents below, or visit the READMEs in each project's git repo.
-
 *This an ongoing research project. We welcome feedback, bug reports, and contributions!*
 
 License
