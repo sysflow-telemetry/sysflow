@@ -6,6 +6,4 @@
    :maxdepth: 2
    :caption: Contents:
 
-OpenShift Operator
-==================
-.. mdinclude:: ../modules/sf-deployments/operator/README.md
+.. mdinclude:: ../modules/sf-deployments/operator/OVERVIEW.md
