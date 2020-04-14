@@ -14,7 +14,10 @@ To learn more about each project, please check the table of contents below, or v
 
 *This an ongoing research project. We welcome feedback, bug reports, and contributions!*
 
-.. mdinclude:: ./keepintouch.md
+Keep in touch
+-------
+Please connect with us on our `Slack <https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ>`_ community! For bugs and feature requests, please check our `issue tracker <https://github.com/sysflow-telemetry/sf-docs/issues>`_. 
+
 
 License
 -------
