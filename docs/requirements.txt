@@ -1,9 +1,12 @@
+fastavro==0.23.6
+frozendict==1.2
 avro-gen==0.3.0
 avro-python3==1.9.1
-tabulate==0.8.3
+tabulate==0.8.6
 minio==4.0.18
 m2r==0.2.1
 sphinx-rtd-theme==0.4.3
 antlr4-python3-runtime==4.7.2
 dotty-dict==1.2.1
-pandas==0.25.3
+pandas>=0.25.3
+numpy>=1.19.0
