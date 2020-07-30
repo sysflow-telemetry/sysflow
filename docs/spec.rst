@@ -1,1 +1,1 @@
-.. mdinclude:: ../SPEC.md
+.. mdinclude:: ../modules/sf-collector/SPEC.md
