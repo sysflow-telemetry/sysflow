@@ -7,6 +7,9 @@
 [submodule "modules/sf-collector"]
 	path = modules/sf-collector
 	url = https://github.com/sysflow-telemetry/sf-collector.git
+[submodule "modules/sf-processor"]
+	path = modules/sf-processor
+	url = https://github.com/sysflow-telemetry/sf-collector.git
 [submodule "modules/sf-deployments"]
 	path = modules/sf-deployments
 	url = https://github.com/sysflow-telemetry/sf-deployments.git
