@@ -1,3 +1,4 @@
 Talks & Publications
 ==============
 .. bibliography::
+   :all:
