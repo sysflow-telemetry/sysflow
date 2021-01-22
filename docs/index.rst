@@ -3,7 +3,7 @@ SysFlow Telemetry Pipeline Documentation
 
 The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads. The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable, common open-source platform. 
 
-.. note:: If in a hurry, skip to our `**quick start** <https://sysflow.readthedocs.io/en/latest/quick.html>`_ guide.
+.. note:: If in a hurry, skip to our **`quick start <https://sysflow.readthedocs.io/en/latest/quick.html>`_** guide.
 
 The backbone of the telemetry pipeline is a new `data format <https://sysflow.readthedocs.io/en/latest/spec.html>`_ which lifts raw system event information into an abstraction that describes process behaviors, and their relationships with containers, files, and network activity. This object-relational format is highly compact, yet it provides broad visibility into legacy endpoints and container clouds.
 

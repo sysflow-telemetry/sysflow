@@ -1,12 +1,14 @@
 Talks & Publications
 ==============
 
-If citing SysFlow, please use :cite:authors:`bigdata2020`.
+If citing SysFlow, please use :cite:t:`bigdata2020`.
 
 .. bibliography::
-   :cited
+   :cited:
 
-Below you can find a complete list of talks and papers associated with SysFlow. Please `reach out to us <https://sysflow.readthedocs.io/en/latest/index.html#keep-in-touch>`_ if you have an entry to add to this list. 
+Below you can find a complete list of talks and papers associated with SysFlow. 
+
+.. note:: Please `reach out to us <https://sysflow.readthedocs.io/en/latest/index.html#keep-in-touch>`_ if you have an entry to add to this list. 
 
 .. bibliography::
    :all:
