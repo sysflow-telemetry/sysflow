@@ -10,3 +10,4 @@ antlr4-python3-runtime==4.7.2
 dotty-dict==1.2.1
 pandas>=0.25.3
 numpy>=1.19.0
+sphinxcontrib-bibtex==2.1.4

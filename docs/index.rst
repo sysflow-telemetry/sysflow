@@ -4,20 +4,21 @@ SysFlow Telemetry Pipeline Documentation
 Introduction
 ------------
 
-The SysFlow Telemetry Pipeline is a framework for monitoring cloud workloads and for creating performance and security analytics. The goal of this project is to build all the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable, common open-source platform. The backbone of the telemetry pipeline is a new data format called SysFlow, which lifts raw system event information into an abstraction that describes process behaviors, and their relationships with containers, files, and network. This object-relational format is highly compact, yet it provides broad visibility into container clouds. We have also built several APIs that allow users to process SysFlow with their favorite toolkits.
+The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads. The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable, common open-source platform. 
 
-The pipeline can currently be deployed using Docker, Kubernetes, OpenShift, and bare metal/VMs (see sf-deployments project). Contributions are welcome!
+The backbone of the telemetry pipeline is a new [data format](https://sysflow.readthedocs.io/en/latest/spec.html) which lifts raw system event information into an abstraction that describes process behaviors, and their relationships with containers, files, and network activity. This object-relational format is highly compact, yet it provides broad visibility into legacy endpoints and container clouds.
 
-Lastly, C++, Python, and Golang APIs are available in the sf-apis project, allowing users to interact with SysFlow traces programmatically. An integrate Jupyter environment for SysFlow makes it easy to perform log hunting on collected traces. There are also Apache Avro schema files for SysFlow so that users can generate APIs for other languages, such as golang or JAVA.
+The platform is designed as a pluggable edge processing architecture which includes a policy engine that accepts declarative policies that support edge filtering, tagging, and alerting on SysFlow streams. It also offers several APIs that allow users to process SysFlow with their favorite toolkits. C++, Python, and Golang [APIs](https://github.com/sysflow-telemetry/sf-apis) are available, allowing users to interact with SysFlow traces programmatically. An integrated [Jupyter environment](https://sysflow.readthedocs.io/en/latest/quick.html#analyzing-collected-traces) makes it easy to perform log hunting on collected traces. There are also Apache Avro schema files for SysFlow so that users can generate APIs for other programming languages.
 
-To learn more about each project, please check the table of contents below, or visit the READMEs in each project's git repo.
+The pipeline can be [deployed](https://sysflow.readthedocs.io/en/latest/deploy.html) using Docker, Kubernetes, OpenShift, and bare metal/VMs. The [SysFlow agent](https://sysflow.readthedocs.io/en/latest/quick.html#deployment-options) can be configured as an edge analytics pipeline to stream SysFlow records through rsyslog, or as a batch exporter of raw SysFlow traces to S3-compatible object stores. 
+
+To learn more about SysFlow, check the table of contents below. If in a hurry, skip to our [quick start](https://sysflow.readthedocs.io/en/latest/quick.html) guide.
 
 *This an ongoing research project. We welcome feedback, bug reports, and contributions!*
 
 Keep in touch
 -------------
 Please connect with us on our `Slack <https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ>`_ community! For bugs and feature requests, please check our `issue tracker <https://github.com/sysflow-telemetry/sf-docs/issues>`_. 
-
 
 License
 -------
@@ -35,6 +36,7 @@ SysFlow and all projects are released under the Apache v2.0 license.
    api-utils
    deploy
    license
+   publications
    contributing
    coc 
 

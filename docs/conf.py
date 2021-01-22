@@ -19,19 +19,22 @@ sys.path.insert(0, os.path.abspath('../modules/sf-apis/py3/classes/'))
 # -- Project information -----------------------------------------------------
 
 project = 'SysFlow Telemetry Pipeline'
-copyright = '2019 IBM - Maintained by Frederico Araujo and Teryl Taylor'
+copyright = '2019 IBM - Maintained by the SysFlow team'
 author = 'Frederico Araujo and Teryl Taylor'
 
 # The full version, including alpha/beta/rc tags
-release = u'0.1'
-version = u'0.1'
+release = u'0.2'
+version = u'0.2'
 
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx_rtd_theme', 'sphinx.ext.autodoc', 'm2r']
+extensions = ['sphinx_rtd_theme', 'sphinx.ext.autodoc', 'm2r', 'sphinxcontrib.bibtex']
+
+# Bibitex
+bibtex_bibfiles = ['refs.bib']
 
 # Master file
 master_doc = 'index'

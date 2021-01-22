@@ -1,3 +1,3 @@
-Apache License
+License
 ==============
 .. mdinclude:: ../LICENSE.md
