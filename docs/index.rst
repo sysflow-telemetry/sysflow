@@ -6,15 +6,17 @@ Introduction
 
 The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads. The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable, common open-source platform. 
 
-The backbone of the telemetry pipeline is a new [data format](https://sysflow.readthedocs.io/en/latest/spec.html) which lifts raw system event information into an abstraction that describes process behaviors, and their relationships with containers, files, and network activity. This object-relational format is highly compact, yet it provides broad visibility into legacy endpoints and container clouds.
+The backbone of the telemetry pipeline is a new `data format <https://sysflow.readthedocs.io/en/latest/spec.html>`_ which lifts raw system event information into an abstraction that describes process behaviors, and their relationships with containers, files, and network activity. This object-relational format is highly compact, yet it provides broad visibility into legacy endpoints and container clouds.
 
-The platform is designed as a pluggable edge processing architecture which includes a policy engine that accepts declarative policies that support edge filtering, tagging, and alerting on SysFlow streams. It also offers several APIs that allow users to process SysFlow with their favorite toolkits. C++, Python, and Golang [APIs](https://github.com/sysflow-telemetry/sf-apis) are available, allowing users to interact with SysFlow traces programmatically. An integrated [Jupyter environment](https://sysflow.readthedocs.io/en/latest/quick.html#analyzing-collected-traces) makes it easy to perform log hunting on collected traces. There are also Apache Avro schema files for SysFlow so that users can generate APIs for other programming languages.
+The platform is designed as a pluggable edge processing architecture which includes a policy engine that accepts declarative policies that support edge filtering, tagging, and alerting on SysFlow streams. It also offers several APIs that allow users to process SysFlow with their favorite toolkits. 
 
-The pipeline can be [deployed](https://sysflow.readthedocs.io/en/latest/deploy.html) using Docker, Kubernetes, OpenShift, and bare metal/VMs. The [SysFlow agent](https://sysflow.readthedocs.io/en/latest/quick.html#deployment-options) can be configured as an edge analytics pipeline to stream SysFlow records through rsyslog, or as a batch exporter of raw SysFlow traces to S3-compatible object stores. 
+The pipeline can be `deployed <https://sysflow.readthedocs.io/en/latest/deploy.html>`_ using Docker, Kubernetes, OpenShift, and bare metal/VMs. The `SysFlow agent <https://sysflow.readthedocs.io/en/latest/quick.html#deployment-options>`_ can be configured as an edge analytics pipeline to stream SysFlow records through rsyslog, or as a batch exporter of raw SysFlow traces to S3-compatible object stores. 
 
-To learn more about SysFlow, check the table of contents below. If in a hurry, skip to our [quick start](https://sysflow.readthedocs.io/en/latest/quick.html) guide.
+An integrated `Jupyter environment <https://sysflow.readthedocs.io/en/latest/quick.html#analyzing-collected-traces>`_ makes it easy to perform log hunting on collected traces. There are also Apache Avro schema files for SysFlow so that users can generate APIs for other programming languages. C++, Python, and Golang `APIs <https://github.com/sysflow-telemetry/sf-apis>`_ are available, allowing users to interact with SysFlow traces programmatically. 
 
-*This an ongoing research project. We welcome feedback, bug reports, and contributions!*
+To learn more about SysFlow, check the table of contents below. If in a hurry, skip to our `quick start <https://sysflow.readthedocs.io/en/latest/quick.html>`_ guide.
+
+*We welcome feedback, bug reports, and contributions!*
 
 Keep in touch
 -------------
