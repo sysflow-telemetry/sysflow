@@ -10,4 +10,3 @@ Below you can find a complete list of talks and papers associated with SysFlow.
 .. bibliography::
    :all:
    :style: unsrt
-   :list: bullet
