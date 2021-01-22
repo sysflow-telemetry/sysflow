@@ -4,7 +4,7 @@ avro-gen==0.3.0
 avro-python3==1.9.1
 tabulate==0.8.6
 minio==4.0.18
-m2r==0.2.6
+m2r2==0.2.7
 sphinx-rtd-theme==0.4.3
 antlr4-python3-runtime==4.7.2
 dotty-dict==1.2.1

@@ -31,7 +31,7 @@ version = u'0.2'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx_rtd_theme', 'sphinx.ext.autodoc', 'm2r', 'sphinxcontrib.bibtex']
+extensions = ['sphinx_rtd_theme', 'sphinx.ext.autodoc', 'm2r2', 'sphinxcontrib.bibtex']
 
 # Bibitex
 bibtex_bibfiles = ['refs.bib']
