@@ -11,3 +11,4 @@ dotty-dict==1.2.1
 pandas>=0.25.3
 numpy>=1.19.0
 sphinxcontrib-bibtex==2.1.4
+alabaster==0.7.12
