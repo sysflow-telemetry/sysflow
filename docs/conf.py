@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../modules/sf-apis/py3/classes/'))
 # -- Project information -----------------------------------------------------
 
 project = 'SysFlow Telemetry Pipeline'
-copyright = '2019 IBM - Maintained by the SysFlow team'
+copyright = '2021 IBM - Maintained by the SysFlow team'
 author = 'Frederico Araujo and Teryl Taylor'
 
 # The full version, including alpha/beta/rc tags
