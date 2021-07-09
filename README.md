@@ -15,7 +15,7 @@ This repository aggregates the [documentation](https://sysflow.readthedocs.io/) 
 	[the github issue tracker](https://github.com/sysflow-telemetry/sysflow/issues)
 
 -	**Source of this description**:  
-	[repo's readme](https://github.com/sysflow-telemetry/sf-collector/edit/master/README.md) ([history](https://github.com/sysflow-telemetry/sf-collector/commits/master))
+	[repo's readme](https://github.com/sysflow-telemetry/sysflow/edit/master/README.md) ([history](https://github.com/sysflow-telemetry/sysflow/commits/master))
 
 # What is SysFlow?
 
