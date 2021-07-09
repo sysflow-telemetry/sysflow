@@ -1,7 +1,8 @@
-# SysFlow Documentation
 [![Documentation Status](https://readthedocs.org/projects/sysflow/badge/?version=latest)](https://sysflow.readthedocs.io/en/latest/?badge=latest)
 
-This repository aggregates the [documentation](https://sysflow.readthedocs.io/) from the different SysFlow projects and hosts SysFlow's [issue tracker](https://github.com/sysflow-telemetry/sf-docs/issues).
+# SysFlow: Cloud-native system telemetry pipeline
+
+This repository hosts the [documentation](https://sysflow.readthedocs.io/) and [issue tracker](https://github.com/sysflow-telemetry/sf-docs/issues) for all SysFlow projects.
 
 # Quick reference
 
@@ -16,6 +17,9 @@ This repository aggregates the [documentation](https://sysflow.readthedocs.io/) 
 
 -	**Source of this description**:  
 	[repo's readme](https://github.com/sysflow-telemetry/sysflow/edit/master/README.md) ([history](https://github.com/sysflow-telemetry/sysflow/commits/master))
+	
+-	**Docker images**:  
+	[docker hub](https://hub.docker.com/u/sysflowtelemetry) | [GHCR](https://github.com/orgs/sysflow-telemetry/packages)
 
 # What is SysFlow?
 
@@ -43,3 +47,11 @@ To build the site as HTML go to the base directory and type:
 ```
 make html
 ```
+
+# License
+
+View [license information](https://github.com/sysflow-telemetry/sysflow/blob/master/LICENSE.md) for SysFlow.
+
+As with all software packages, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
+
+As for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.
