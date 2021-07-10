@@ -1,5 +1,7 @@
 .. mdinclude:: ../modules/sf-processor/docs/BUILD.md
 
+.. mdinclude:: ../modules/sf-processor/docs/CONFIG.md
+
 .. mdinclude:: ../modules/sf-processor/docs/POLICIES.md
 
 .. mdinclude:: ../modules/sf-processor/docs/PLUGINS.md
