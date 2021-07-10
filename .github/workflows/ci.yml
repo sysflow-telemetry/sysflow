@@ -20,8 +20,7 @@ jobs:
 
     - name: Git Submodule Update
       run: |
-        git pull --recurse-submodules
-        git submodule update --remote --recursive
+        git submodule foreach "git fetch origin; git checkout master; git pull --no-rebase  origin master"
 
     - name: Commit update
       run: |
