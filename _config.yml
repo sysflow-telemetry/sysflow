@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
     The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable,
     common open-source platform.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/sysflow" # the subpath of your site, e.g. /blog
 url: "https://sysflow-telemetry.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sysflow-telemetry
 repository: "sysflow-telemetry/sysflow"
