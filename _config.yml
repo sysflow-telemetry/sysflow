@@ -1,0 +1,123 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: SysFlow
+subtitle: "Cloud-native system telemetry pipeline"
+email: sysflow@us.ibm.com
+description: >- # this means to ignore newlines until "baseurl:"
+    The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
+    The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable,
+    common open-source platform.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sysflow-telemetry.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  sysflow-telemetry
+repository: "sysflow-telemetry/sysflow"
+logo: /assets/images/SysFlow-logo.png
+
+# Build settings
+### theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+plugins:
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+github: [metadata]
+
+search: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+
+name: "SysFlow"
+# author:
+  # name     : "SysFlow"
+  # avatar   : "/assets/images/SysFlow-logo.png"
+  # bio      : "The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
+  # The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable,
+  # common open-source platform."
+  # location : "Somewhere, USA"
+  # links:
+  #   - label: "Slack"
+  #     icon:  "fab fa-slack"
+  #     url:   "https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ"
+  #   - label: "Documentation"
+  #     icon:  "fas fa-book"
+  #     url:   "https://sysflow.readthedocs.io/"
+  #   - label: "GitHub"
+  #     icon:  "fab fa-github"
+  #     url:   "https://github.com/sysflow-telemetry"
+  #   - label: "Contact"
+  #     icon:  "far fa-envelope"
+  #     url:   "mailto:sysflow@us.ibm.com"
+
+footer:
+  links:
+    - label: "Slack"
+      icon:  "fab fa-slack"
+      url:   "https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ"
+    - label: "Contact"
+      icon:  "far fa-envelope"
+      url:   "mailto:sysflow@us.ibm.com"
+    - label: "GitHub"
+      icon:  "fab fa-github"
+      url:   "https://github.com/sysflow-telemetry"
+    - label: "Documentation"
+      icon:  "fas fa-book"
+      url:   "https://sysflow.readthedocs.io/"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+include: ["_pages"]
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
