@@ -1,7 +1,7 @@
 Axel Tanner:
   name        : "Axel Tanner"
   bio         : "Researcher since many years in computer security, with special interests in data analytics and machine learning application in that area."
-  avatar      : "/assets/images/axs.jpg"
+  avatar      : "/assets/images/axs.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -13,7 +13,7 @@ Axel Tanner:
 Frederico Araujo:
   name        : "Frederico Araujo"
   bio         : ""
-  avatar      : "/assets/images/fred.jpg"
+  avatar      : "/assets/images/fred.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -22,7 +22,7 @@ Frederico Araujo:
 Teryl Taylor:
   name        : "Teryl Taylor"
   bio         : ""
-  avatar      : "/assets/images/teryl.jpg"
+  avatar      : "/assets/images/teryl.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -31,7 +31,7 @@ Teryl Taylor:
 Andreas Schade:
   name        : "Andreas Schade"
   bio         : ""
-  avatar      : "/assets/images/san.jpg"
+  avatar      : "/assets/images/san.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
