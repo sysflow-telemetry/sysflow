@@ -21,7 +21,7 @@ executes a set of commands belonging to the [Discovery](https://attack.mitre.org
 and [Command and Control](https://attack.mitre.org/tactics/TA0011/) techniques of the
 [MITRE ATT&CK&reg;](https://attack.mitre.org) framework.
 
-![Architecture of the demonstrator](https://raw.githubusercontent.com/sysflow-telemetry/sf-deployments/dev/integrations/elk/images/pipeline.png ?raw=true "Architecture of the demonstrator")
+![Architecture of the demonstrator](https://raw.githubusercontent.com/sysflow-telemetry/sf-deployments/dev/integrations/elk/images/pipeline.png?raw=true "Architecture of the demonstrator")
 
 SysFlow collects the telemetry information created by the attack container. On this stream of raw events, SysFlow
 applies a custom processing pipeline that stores SysFlow data in two Elastic indices. One part of the pipeline
