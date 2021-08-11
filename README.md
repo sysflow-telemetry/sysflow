@@ -32,7 +32,7 @@ Using the GitHub route, the easiest way to create a new post is like:
   ---
   ```
   We have to consider the tags to use - maybe `update`, `usecase`, `demonstration` and the like?
-- I have seeded the author information with some data from bluepages (namely email and image), you might like to add other info or change it by editing [authors.yml](https://github.com/sysflow-telemetry/sysflow/blob/gh-pages/_data/authors.yml)
+- I have seeded the author information for us with some data from bluepages (namely email and image), you might like to add other info or change it by editing [authors.yml](https://github.com/sysflow-telemetry/sysflow/blob/gh-pages/_data/authors.yml)
 
 - edit the content as usual - using GitHub-flavored markdown
 - then either check-in the page directly, or maybe as a better workflow, during the check-in select the choice `Create a new branch for this commit and start a pull request`, then a new branch will be created making it easy to create a PR and have somebody else look at the new content before publishing. This process is described in the [GitHub Pages Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site) - but please use the front-matter YAML as shown above.
