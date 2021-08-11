@@ -1,26 +1,38 @@
-Billy Rick:
-  name        : "Billy Rick"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
+Axel Tanner:
+  name        : "Axel Tanner"
+  bio         : "Researcher since many years in computer security, with special interests in data analytics and machine learning application in that area."
+  avatar      : "/assets/images/axs.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
+      url: "mailto:axs@zurich.ibm.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
+      url: "http://researcher.watson.ibm.com/researcher/view.php?person=zurich-axs"
 
-Cornelius Fiddlebone:
-  name        : "Cornelius Fiddlebone"
-  bio         : "I ordered what?"
-  avatar      : "/assets/images/bio-photo.jpg"
+Frederico Araujo:
+  name        : "Frederico Araujo"
+  bio         : ""
+  avatar      : "/assets/images/fred.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:cornelius@thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/rhymeswithsackit"
+      url: "mailto:frederico.araujo@ibm.com"
+
+Teryl Taylor:
+  name        : "Teryl Taylor"
+  bio         : ""
+  avatar      : "/assets/images/teryl.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:terylt@ibm.com"
+
+Andreas Schade:
+  name        : "Andreas Schade"
+  bio         : ""
+  avatar      : "/assets/images/san.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:axs@zurich.ibm.com"
