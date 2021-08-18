@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     pluggable open-source platform. The backbone of the telemetry pipeline is a compact open data format that lifts the 
     representation of system activities into a flow-centric, object-relational model that reduces event fatigue and is 
     particularly suitable for cloud-wide monitoring, stream analytics, and forensic investigation.
-baseurl: "/sysflow" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://sysflow-telemetry.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sysflow-telemetry
 repository: "sysflow-telemetry/sysflow"
