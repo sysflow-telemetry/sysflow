@@ -20,7 +20,7 @@
 
 title: SysFlow
 subtitle: "Cloud-native system telemetry pipeline"
-# email: sysflow@us.ibm.com
+email: sysflow@us.ibm.com
 description: >- # this means to ignore newlines until "baseurl:"
     SysFlow is a cloud-native system telemetry framework that enables the creation of security analytics on a scalable, 
     pluggable open-source platform.
