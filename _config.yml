@@ -22,9 +22,10 @@ title: SysFlow
 subtitle: "Cloud-native system telemetry pipeline"
 email: sysflow@us.ibm.com
 description: >- # this means to ignore newlines until "baseurl:"
-    The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
-    The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable,
-    common open-source platform.
+    SysFlow is a cloud-native system telemetry framework that enables the creation of security analytics on a scalable, 
+    pluggable open-source platform. The backbone of the telemetry pipeline is a compact open data format that lifts the 
+    representation of system activities into a flow-centric, object-relational model that reduces event fatigue and is 
+    particularly suitable for cloud-wide monitoring, stream analytics, and forensic investigation.
 baseurl: "/sysflow" # the subpath of your site, e.g. /blog
 url: "https://sysflow-telemetry.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sysflow-telemetry
@@ -55,9 +56,10 @@ name: "SysFlow"
 # author:
   # name     : "SysFlow"
   # avatar   : "/assets/images/SysFlow-logo.png"
-  # bio      : "The SysFlow Telemetry Pipeline is a framework for monitoring cloud and enterprise workloads.
-  # The framework builds the plumbing required for system telemetry so that users can focus on writing and sharing analytics on a scalable,
-  # common open-source platform."
+  # bio      : "SysFlow is a cloud-native system telemetry framework that enables the creation of security analytics on a scalable, 
+  # pluggable open-source platform. The backbone of the telemetry pipeline is a compact open data format that lifts the 
+  # representation of system activities into a flow-centric, object-relational model that reduces event fatigue and is 
+  # particularly suitable for cloud-wide monitoring, stream analytics, and forensic investigation."
   # location : "Somewhere, USA"
   # links:
   #   - label: "Slack"
