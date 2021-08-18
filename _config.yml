@@ -20,7 +20,7 @@
 
 title: SysFlow
 subtitle: "Cloud-native system telemetry pipeline"
-email: sysflow@us.ibm.com
+## email: sysflowtelemetry@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     SysFlow is a cloud-native system telemetry framework that enables the creation of security analytics on a scalable, 
     pluggable open-source platform.
@@ -71,16 +71,16 @@ name: "SysFlow"
   #     url:   "https://github.com/sysflow-telemetry"
   #   - label: "Contact"
   #     icon:  "far fa-envelope"
-  #     url:   "mailto:sysflow@us.ibm.com"
+  #     url:   "mailto:sysflowtelemetry@gmail.com"
 
 footer:
   links:
     - label: "Slack"
       icon:  "fab fa-slack"
       url:   "https://join.slack.com/t/sysflow-telemetry/shared_invite/enQtODA5OTA3NjE0MTAzLTlkMGJlZDQzYTc3MzhjMzUwNDExNmYyNWY0NWIwODNjYmRhYWEwNGU0ZmFkNGQ2NzVmYjYxMWFjYTM1MzA5YWQ"
-    - label: "Contact"
-      icon:  "far fa-envelope"
-      url:   "mailto:sysflow@us.ibm.com"
+  #  - label: "Contact"
+  #    icon:  "far fa-envelope"
+  #    url:   "mailto:sysflowtelemetry@gmail.com"
     - label: "GitHub"
       icon:  "fab fa-github"
       url:   "https://github.com/sysflow-telemetry"
