@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "SysFlow-ELK integration demonstrator"
+title:  "SysFlow ELK integration and tutorial"
 date:   2021-08-20 13:55:48 +0200
 tags:   update
 author_profile: true
