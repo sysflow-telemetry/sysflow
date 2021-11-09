@@ -2,15 +2,17 @@
 layout: single
 title:  "SysFlow ELK integration"
 date:   2021-08-20 13:55:48 +0200
-tags:   update
+tags:   
+- update
+- ELK
 author_profile: true
 author: Andreas Schade
 ---
 
 As of release [0.3.0-rc2](https://github.com/sysflow-telemetry/sf-processor/releases/tag/0.3.0-rc2),
-sf-processor can write SysFlow telemetry records to Elastic! 
+sf-processor can write SysFlow telemetry records to Elastic!
 
-To illustrate this new feature, we have created a [tutorial](https://github.com/sysflow-telemetry/sf-deployments/tree/dev/integrations/elk) 
+To illustrate this new feature, we have created a [tutorial](https://github.com/sysflow-telemetry/sf-deployments/tree/dev/integrations/elk)
 that showcases the integration of SysFlow with ELK. The setup is based entirely on Docker. It uses the SysFlow docker deployment
 consisting of sf-collector and sf-processor containers, and utilizes [Anthony Lapenna's](https://github.com/deviantony)
 [ELK Stack on Docker](https://github.com/deviantony/docker-elk/tree/tls) to deploy ElasticSearch
@@ -34,7 +36,3 @@ before indexing them into ElasticSearch. The contents of both indices can be vis
 Check this exciting new [integration](https://github.com/sysflow-telemetry/sf-deployments/tree/dev/integrations/elk)
 out for instructions on how to run the code yourself, a description of the pipeline configuration, and a detailed
 explanation of the results!
-
-
-
-
