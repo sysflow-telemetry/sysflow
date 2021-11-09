@@ -10,9 +10,9 @@ author_profile: true
 author: Teryl Taylor  
 ---
 
-Today, we are going to discuss how to combine SysFlow, Kestrel, and ELK (or simply Elastic) to enable threat hunting in a hybrid cloud environment.  This post was adapted from Xiaokui Shu's tutorial originally published on the [OCA Blog](https://opencybersecurityalliance.org/posts/kestrel-sysflow-bheu21-open-hunting-stack).
+Today, we are going to discuss how to combine [SysFlow](https://sysflow.io), [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang), and ELK (or simply Elastic) to enable threat hunting in a hybrid cloud environment. This post was adapted from Xiaokui Shu's tutorial originally published on the [OCA Blog](https://opencybersecurityalliance.org/posts/kestrel-sysflow-bheu21-open-hunting-stack).
 
-Today, we are going to discuss how to combine [SysFlow](https://sysflow.io), [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang), and ELK (or simply Elastic) to enable threat hunting in a hybrid cloud environment. Kestrel is an open-source threat hunting framework that embeds a declarative language enabling threat hunters to focus on what to hunt rather than how to hunt. While SysFlow provides visibility, data enrichment, and edge analytics into each cloud endpoint, Kestrel + Elastic enable rich data queries combining data across nodes in a systematic and reusable format. This blog will discuss the setup of the open threat hunting stack presented at [Black Hat Europe
+Kestrel is an open-source threat hunting framework that embeds a declarative language enabling threat hunters to focus on what to hunt rather than how to hunt. While SysFlow provides visibility, data enrichment, and edge analytics into each cloud endpoint, Kestrel + Elastic enable rich data queries combining data across nodes in a systematic and reusable format. This blog will discuss the setup of the open threat hunting stack presented at [Black Hat Europe
 2021](https://www.blackhat.com/eu-21/). In our session [An Open Stack for Threat Hunting in Hybrid Cloud With Connected
 Observability](https://www.blackhat.com/eu-21/arsenal/schedule/index.html#an-open-stack-for-threat-hunting-in-hybrid-cloud-with-connected-observability-25112), we hunt an APT in a hybrid cloud environment.
 
