@@ -27,6 +27,6 @@ The marker symbols tell a story of an attack starting with discovery steps, prog
 
 Comparing this with the ground truth data from our knowledge of the scripted attack shows that many steps as well as the overall progression of the attack are nicely reflected in the alerts and the associated MITRE tactics. Of course not all steps of the attack leave traces in the alerts, nor do we understand from this view alone what is going on in detail, but we could imagine this as a complementary view ideally making the larger context visible beyond the details of all alerts, triggering follow-up investigations (e.g., here what the attacker was later doing with the user account he was able to create).
 
-Please have a look at the details of this approach in the [Jupyter notebook](https://nbviewer.org/github/sysflow-telemetry/sf-apis/blob/mitre-tag-timeline/pynb/mitre-tag-timeline.ipynb) - which you also can take as starting point for your own experiments.
+Please have a look at the details of this approach in the [Jupyter notebook](https://nbviewer.org/github/sysflow-telemetry/sf-apis/blob/master/pynb/mitre-tag-timeline.ipynb) - which you also can take as starting point for your own experiments.
 
 This is work-in-progress - more work will be required to evaluate this approach with more attacks in more complex environments, but have a look and let us know if you find this promising and interesting to pursue!
