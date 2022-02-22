@@ -7,10 +7,10 @@ system call information into a higher order object relational form that models h
 processes and files interact with their environment through process control flow, file, and network
 operations. Learn more about SysFlow in the SysFlow Specification Document.
 
-The SysFlow Collector is currently built upon a Sysdig core and requires the Sysdig probe to passively
-collect system events and turn them into SysFlow.  As a result, the collector supports Sysdig's powerful
-filtering capabilities. Please see the build and installation instructions for installing the collector.
-
+The SysFlow Collector builds on the `CNCF Falco libs <https://github.com/falcosecurity/libs>`_ to 
+passively collect system events and turn them into SysFlow. As a result, the collector supports the 
+libs' powerful filtering capabilities. Please see the build and installation instructions for installing 
+the collector.
 
 .. toctree::
    :maxdepth: 2
