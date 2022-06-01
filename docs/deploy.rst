@@ -1,9 +1,7 @@
-.. deploy documentation master file, created by
-   sphinx-quickstart on Mon Aug  5 20:51:49 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Deployments (sf-deployments repo)
+========================================
 
-.. mdinclude:: ../modules/sf-deployments/README.md
+SysFlow can be deployed using Docker Compose, Helm, OpenShift, and binary packages.
 
 .. toctree::
    :maxdepth: 2
