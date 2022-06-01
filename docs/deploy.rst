@@ -10,7 +10,7 @@
    :caption: Contents:
 
    docker
-   binary
    helm
    operator
+   binary
 
