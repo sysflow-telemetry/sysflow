@@ -40,7 +40,6 @@ SysFlow and all projects are released under the Apache v2.0 license.
    exporter
    api-utils
    deploy
-   libs
    license
    contributing
    coc
