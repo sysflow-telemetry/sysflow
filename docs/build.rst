@@ -1,1 +1,1 @@
-.. mdinclude:: ../modules/sf-collector/BUILD.md
+.. mdinclude:: ../modules/sf-collector/docs/BUILD.md
