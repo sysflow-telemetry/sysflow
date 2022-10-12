@@ -1,7 +1,7 @@
 Deployments (sf-deployments repo)
 ========================================
 
-SysFlow can be deployed using Docker Compose, Helm, OpenShift, and binary packages.
+SysFlow can be deployed using Docker Compose, Helm, and binary packages.
 
 .. toctree::
    :maxdepth: 2
@@ -9,6 +9,5 @@ SysFlow can be deployed using Docker Compose, Helm, OpenShift, and binary packag
 
    docker
    helm
-   operator
    binary
 
