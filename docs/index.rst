@@ -35,6 +35,7 @@ SysFlow and all projects are released under the Apache v2.0 license.
 
    quick
    spec
+   libs
    collector
    processor
    exporter

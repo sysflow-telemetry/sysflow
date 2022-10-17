@@ -17,6 +17,5 @@ the collector.
 .. toctree::
    :maxdepth: 2
 
-   libs
    build
 
